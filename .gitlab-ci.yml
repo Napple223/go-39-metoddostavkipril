@@ -18,7 +18,7 @@ test:
   stage: test
   image: golang:1.18
   script:
-    - make tests
+    - make test
 
 lint:
   stage: test
